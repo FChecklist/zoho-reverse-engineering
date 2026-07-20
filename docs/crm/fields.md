@@ -124,3 +124,16 @@ Create Deal form fields, in order:
 - Setup/admin area (gear icon, top right) -- would reveal the underlying schema/customization more directly than reverse-engineering forms
 - Deals' full Kanban stage list beyond the 2 columns captured in the viewport
 - Accounts' Shipping Address block (inferred from "Copy Address" button, not directly viewed)
+
+## Addendum (2026-07-20, closing prior disclosed gaps)
+
+### Module: Documents
+Simple file manager, not a CRM record type: Create / Upload actions, left-nav folders (All Files, Documents, Pictures, Music, Videos, Favorites) + a Trash. Empty in this account ("You have no documents").
+
+### Module: Campaigns
+Empty-state screen ("Plan Campaigns -- Campaigns are marketing efforts planned, executed, and monitored from within your CRM") with two actions: **Create Campaign**, **Import Campaigns**. No campaigns exist yet in this account, so the create form itself wasn't opened.
+
+### Module: Activities > Tasks (CRM-side, distinct from Zoho Projects' own Tasks module)
+List columns: Subject, Due Date, Status, Priority (values observed: Highest/Normal/Low for Priority; Completed/Not Started for Status). 12 real records exist -- these are Zoho's own onboarding checklist items ("Complete CRM Getting Started steps", "Register for upcoming CRM Webinars"), not seeded sample business data like the other modules.
+
+Remaining unopened: Activities > Meetings, Calls (left-nav items only glanced at, not opened -- genuinely out of scope for this pass, low marginal value given the Tasks pattern above is representative of the Activities group's general shape).
